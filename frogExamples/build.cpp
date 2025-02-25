@@ -5,7 +5,7 @@
 //this is modified file i use mostly for building .cpp files, i wont explain anything here except that i recommend modifying this file
 //however you like, and then putting it in folder where your .cpp files are and put the folder in path
 //so that you can just open cmd and do "build yes main yes" so that it compiles it and makes main.exe and opens it
-//it opens the name of file in your path so if you dont wanna set that path just delete the opening function
+//it opens the name of file in your path, if you dont wanna set that path just delete the opening function
 
 int main(int argc, char* argv[]) {
 	std::string a;
