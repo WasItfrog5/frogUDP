@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main() {
-    fr::UDP udp;//------------------------------------------------------it was not needed to make it, but its just better
+    fr::UDP udp;//------------------------------------------------------it was not needed for me to make it, but its just better
     udp.connectTo("127.0.0.1");//---------------------------------------connects to local host
     udp.usePort(8080);//------------------------------------------------uses port 8080
     while(true) {//-----------------------------------------------------send messages until closed
