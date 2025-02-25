@@ -1,5 +1,5 @@
 # frogUDP
-## a easy to learn and open source library to communicate with UDP servers
+ a easy to learn and open source library to communicate with UDP servers
 
 # to compile do g++ -o exename filename.cpp -lfrogUdp
 
