@@ -17,5 +17,5 @@ int main() {
             std::cout << "received: " << buffer << std::endl;//---------shows received message
         }
     }
-    udp.close();//------------------------------------------------------closes the socket or whatever, it disconnects it from the server so put it at the end
+    udp.close();//------------------------------------------------------closes the socket or whatever, please use to prevent resource leaks
 }
